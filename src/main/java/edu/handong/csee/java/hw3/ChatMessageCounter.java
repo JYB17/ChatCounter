@@ -1,12 +1,11 @@
 package edu.handong.csee.java.hw3;
 
-import java.util.Scanner;
+import java.io.IOException;
 
 public class ChatMessageCounter {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public static void main(String[] args) throws IOException{
+		DataReader data = new DataReader();
+		data.run();
 	}
-
 }
